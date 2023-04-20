@@ -1,14 +1,36 @@
-body {
+.indexBody {
     margin: 0px;
     background-color: #74B1B5;
 }
 
+.aboutBody {
+    margin: 0px;
+    background-color: #C4FBFF;
+}
+
 #heroBanner {
 background-color: #F8EDB5;
-border: 2px hotpink;
 height: 274px;
 padding: 38px 50px 50px 50px;
 }
+
+#aboutHeroBanner {
+    background-color: #F8EDB5;
+    height: 274px;
+    padding: 60px 50px 50px 80px;
+    display: flex;
+}
+
+.headshot {
+    height: 620px;
+    margin-right: 80px;
+}
+
+.aboutMeheader {
+    width: 437px;
+    padding: 62px 57px 27px 87px;
+}
+
 
 #logoHed {
     width: 100%;
@@ -29,6 +51,12 @@ h1 {
     font-family: 'Aboreto', cursive;
     margin: 0px;
 }
+
+h2 {
+    font-family: 'Aboreto', cursive;
+    font-size: 38px;
+}
+
 p1 {
     font-size: 36px;
     font-family: 'Lato', sans-serif;
