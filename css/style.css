@@ -22,7 +22,7 @@ padding: 38px 50px 50px 50px;
 }
 
 .headshot {
-    height: 620px;
+    height: 567px;
     margin-right: 80px;
 }
 
@@ -31,6 +31,33 @@ padding: 38px 50px 50px 50px;
     padding: 62px 57px 27px 87px;
 }
 
+.aboutMecopy {
+    border-bottom: 4px solid white ;
+}
+
+.skills {
+
+}
+
+.skillsCircles {
+
+}
+
+.editorialCircle {
+
+}
+
+.pMskills {
+
+}
+
+.brandFramework {
+
+}
+
+.uxUI {
+    
+}
 
 #logoHed {
     width: 100%;
@@ -61,6 +88,16 @@ p1 {
     font-size: 36px;
     font-family: 'Lato', sans-serif;
 }
+
+p2 {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+}
+
+.moreAboutme {
+    padding: 30px 298px 30px 84px;
+}
+
 img {src: url("../images/Logo.png");
 }
 
