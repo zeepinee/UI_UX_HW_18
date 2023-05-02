@@ -171,14 +171,43 @@ img {src: url("../images/Logo.png");
     flex-direction: column;
     background-color: #19133A;
     margin: 0;
-    height: 570px;
+    /* height: 570px; */
+    height: 57px;
     padding: 50px 0px 80px 40px;
+    transition: 2s;
 }
+
+.navX {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    opacity: 0;
+    transition: 2s;
+    display: none;
+}
+
+.navX:hover {
+    cursor: pointer;
+}
+
 #navigation {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 80%;
+    transition: 2s;
+    opacity: 0;
+    display: none;
+}
+
+.closedNav {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+    color: white;
+    text-decoration: underline;
 }
 
 .navItem {
@@ -186,6 +215,10 @@ img {src: url("../images/Logo.png");
     font-size: 32px;
     color: white;
     text-decoration: underline;
+}
+
+#clickMe:hover {
+    cursor: pointer;
 }
 
 .navHeroBanner {
@@ -201,11 +234,13 @@ img {src: url("../images/Logo.png");
 
 .contact {
     background-color: #966AB0;
-    height: 252px;
+    /* height: 252px; */
+    height: 175px;
     width: 100%;
-    padding: 191px 20px 23px 42px;
+    /* padding: 191px 20px 23px 42px; */
+    padding: 0px;
     box-sizing: border-box;
-
+    transition: 2s;
 }
 
 .icons {
@@ -213,6 +248,8 @@ img {src: url("../images/Logo.png");
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    opacity: 0;
+    display: none;
 }
 
 #workBanner {
